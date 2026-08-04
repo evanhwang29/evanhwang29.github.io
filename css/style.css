@@ -9,7 +9,7 @@ body{
     height:100%;
     margin:0;
     padding:0;
-    background-color: #fcfbf4;
+    background-color: #fffce1;
 }
 section header{
     margin:2rem;
@@ -51,7 +51,7 @@ img{
 }
 
 nav{
-    background-color: #F0F0DC;
+    background-color: #f8f8db;
     padding:1rem;
 }
 nav a{
@@ -133,6 +133,11 @@ nav{
 }
 .navigationElement:hover{
     -webkit-text-stroke-width: 1px;
+}
+.footer{
+    background-color: #A0D68A;
+    color: #000000;
+    text-align: center;
 }
 @media (min-width:576px){
 
