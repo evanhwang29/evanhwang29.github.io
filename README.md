@@ -1,1 +1,1 @@
-This is my digital portfolio
+This is my digital portfolio, detailing my journey with technology
