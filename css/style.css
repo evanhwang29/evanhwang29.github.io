@@ -132,6 +132,9 @@ nav ul li,#skills ul li{
     font-size: 1rem;
     font-weight: 200;
 }
+.achievementGrid{
+    
+}
 /*project section*/
 .project{
     border: solid 1px black;
