@@ -73,7 +73,18 @@ nav ul,#skills ul{
 nav{
     display: none;
 }
-
+/*about me type thing*/
+.headerAboutMe h2{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+}
+.aboutMeDescription{
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
 /*skills section*/
 #skills ul{
     justify-content: center;
@@ -91,12 +102,23 @@ nav ul li,#skills ul li{
     font-family: "Playfair Display", sans-serif;
     font-weight: 800;
 }
-.skillsList{
-    display: flex 1 1 auto;
-    flex-direction: column;
+.skillsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+}
+
+.skillsList li {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    min-width: 180px;
+    max-width: 220px;
+    background: #fffce1;
+    list-style: none;
 }
 
 /*achievement section*/
@@ -133,7 +155,7 @@ nav ul li,#skills ul li{
     font-weight: 200;
 }
 .achievementGrid{
-    
+    text-align: center;
 }
 /*project section*/
 .project{
